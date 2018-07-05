@@ -1,0 +1,26 @@
+.reveal b,
+.reveal strong,
+.reveal th {
+    /* gotham-round has no bold :-( */
+    font-family: "gotham-book";
+
+    /* gdi red :-) */
+    color: #f05b62;
+}
+
+.reveal table td {
+    border-width: 0;
+}
+
+/* Make code a bit bigger */
+.reveal pre {
+    font-size: 0.75em;
+}
+.reveal pre code {
+    max-height: 500px;
+}
+
+/* Images should not have borders */
+.reveal section img {
+    border-width: 0;
+}
