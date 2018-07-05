@@ -1,7 +1,5 @@
 x
-Download Data:
-
-https://bit.ly/2tHSVtz
+Download Data: [Click here](https://github.com/emmycodes/intro-to-sql-2018June/blob/master/data/donorschoose.sqlite)
 
 
 :note:
@@ -319,6 +317,7 @@ WHERE GRADE_LEVEL_CATG = 'Grades 3-5';
 - Get a list of resources from vendor 'Lakeshore Learning Materials'?
 - _How many_ schools have a free lunch % of 40%?  75%?
 - _How many_ projects are 'Teacher-Led'?
+- How many donors do NOT have a city listed?
 
 **If you're not sure if something will work, try it and see! Don't worry if you can't get all of these!**
 
@@ -575,7 +574,7 @@ GROUP BY OPTIONAL_DONATE;
 
 #### Try these:
 - Based on the Project type, what is the total and avg costs of projects?
-- What the top 5 states with the great number of teacher donors?
+- What are the top 5 states with the great number of teacher donors?
 - Find the total cost (qty * unit_price) of each vendor from resources?
 
 ---
@@ -925,9 +924,7 @@ Often you won't have permission to modify data, and usually you won't want to.
 
 ## `INSERT`ing new data
 
-Remember at the beginning of the class when you introduced yourself?
-
-Let's put that information into a table!
+Let's edit the DonorsChoose data!
 
 ```sql
 select * from RESOURCES;
